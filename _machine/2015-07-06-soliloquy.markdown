@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Soliloquy Of The Solipsist
-date: 2015-07-06 07:59:00
+title: Tarea 1: Introducción al modelo de aprendizaje PAC
+date: 2019-08-13 07:59:00
+
 ---
 I?    
 I walk alone;    
