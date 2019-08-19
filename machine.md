@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /machine/
-title: machine learning
+title: machine
 description: 
 ---
 
