@@ -22,8 +22,8 @@ collections:
   portfolio:
     output: true
     permalink: /portfolio/:path/
-  poetry:
+  machine_learning:
     output: true
-    permalink: /poetry/:path/
+    permalink: /machine_learning/:path/
 
 
