@@ -1,7 +1,7 @@
 ---
 layout: post
-title: In That Other Introduccion Al Modelo De Aprendizaje PAC
-date: 2015-08-06 07:59:00
+title: Introduccion Al Modelo De Aprendizaje PAC
+date: 2019-08-13 07:59:00
 ---
 we were never caught    
     
