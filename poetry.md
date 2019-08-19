@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /poetry/
-title: poetry
+permalink: /machine learning/
+title: Machine Learning
 description: Showcase your writing, short stories, or poems. Replace this text with your.
 ---
 

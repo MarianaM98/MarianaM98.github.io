@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tarea 1 Machine Learning
+title: Tarea 1: Introducción al modelo de aprendizaje PAC
 date: 2015-07-06 07:59:00
 mathjax: true
 ---
