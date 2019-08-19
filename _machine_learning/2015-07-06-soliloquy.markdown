@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Tarea 2: Modelo PAC generalizado y predictores lineales
-date: 2019-08-20 07:59:00
+title: Soliloquy Of The Solipsist
+date: 2015-07-06 07:59:00
 ---
 I?    
 I walk alone;    
