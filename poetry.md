@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /poetry/
-title: poetry
-description: Showcase your writing, short stories, or poems. Replace this text with your description.
+permalink: /machine_learning/
+title: machine learning
+description: 
 ---
 
 <ul class="post-list">
