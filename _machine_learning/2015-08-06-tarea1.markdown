@@ -6,7 +6,6 @@ mathjax: true
 ---
 ##Tarea 1 machine Learning  
 1. Especifica una parametrización del espacio de hipótesis.
-
 $h(t,m,n)\in H$ donde
 $t$: la esquina inferior izquierda de $h$ se encuentra en $(t,t)$
 $m$: alto de $h$ (multiplo de 0.01)
