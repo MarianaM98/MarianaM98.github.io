@@ -136,8 +136,32 @@ def ERMh(errorEmpir):
 El tamaño de $H$ es $\frac{1}{0.01}=100$
 
 <div class="img_row">
-	<img class="col one" src="/img/11.jpg">
-	<img class="col one" src="/img/12.jpg">
-	<img class="col one" src="/img/7.jpg">
+	<img class="col one" src="/img/entrenamiento1.jpg">
+	<img class="col one" src="/img/entrenamiento2.jpg">
+	<img class="col one" src="/img/entrenamiento3.jpg">
+</div>
+
+<div class="img_row">
+	<img class="col one" src="/img/entrenamiento4.jpg">
+	<img class="col one" src="/img/entrenamiento5.jpg">
+	<img class="col one" src="/img/entrenamiento6.jpg">
+</div>
+
+<div class="img_row">
+	<img class="col one" src="/img/entrenamiento7.jpg">
+	<img class="col one" src="/img/entrenamiento8.jpg">
+	<img class="col one" src="/img/entrenamiento9.jpg">
+</div>
+
+<div class="img_row">
+	<img class="col one" src="/img/entrenamiento10.jpg">
+	<img class="col one" src="/img/entrenamient11.jpg">
+	<img class="col one" src="/img/entrenamiento12.jpg">
+</div>
+
+<div class="img_row">
+	<img class="col one" src="/img/entrenamiento13.jpg">
+	<img class="col one" src="/img/entrenamient14.jpg">
+	<img class="col one" src="/img/entrenamiento15.jpg">
 </div>
 ### Wanda Coleman
