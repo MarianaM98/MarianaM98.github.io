@@ -32,5 +32,26 @@ La probabilidad de extraer $h_0(t_0,m_0,n_0)$ es $\frac{m_0n_0}{4}$
 4. En python, define un conjunto de métodos que realicen las siguientes tareas: 
 
 a. Formen conjuntos de entrenamiento $S$ con $m$ elementos
+{% highlight python %}
+
+def entrenamiento(k): 
+    x=np.random.uniform(0,2,k)
+    y=np.random.uniform(0,2,k)
+    z=np.zeros(k)
+    p=[]
+    for i in range(0,k):
+        if x[i]<(1+1/sqrt(2)) and x[i]>(1-1/sqrt(2)):
+            if y[i]<(1+1/sqrt(2)) and y[i]>(1-1/sqrt(2)):
+                z[i]=1
+            else:
+                z[i]=0
+        else: 
+            z[i]=0
+    for i in range(0,k):
+        p=p+[x[i],y[i],z[i]]
+    return p
+
+{% endhighlight %}
+
 
 ### Wanda Coleman
