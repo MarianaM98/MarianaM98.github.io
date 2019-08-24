@@ -5,9 +5,9 @@ date: 2019-08-13 07:59:00
 mathjax: true
 ---
 ##Tarea 1 machine Learning  
-1. Especifica una parametrización del espacio de hipótesis.\n
-$h(t,m,n)\in H$ donde\n
-$t$: la esquina inferior izquierda de $h$ se encuentra en $(t,t)$\n
-$m$: alto de $h$ (multiplo de 0.01)\n
-$n$: ancho de $h$ (multiplo de 0.01)\n
+1. Especifica una parametrización del espacio de hipótesis.
+$h(t,m,n)\in H$ donde
+$t$: la esquina inferior izquierda de $h$ se encuentra en $(t,t)$
+$m$: alto de $h$ (multiplo de 0.01)
+$n$: ancho de $h$ (multiplo de 0.01)
 ### Wanda Coleman
