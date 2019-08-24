@@ -4,7 +4,8 @@ title: Introduccion Al Modelo De Aprendizaje PAC
 date: 2019-08-13 07:59:00
 mathjax: true
 ---
-##Tarea 1 machine Learning  
+## Tarea 1 machine Learning 
+
 1. Especifica una parametrización del espacio de hipótesis.
 
 $h(t,m,n)\in H$ donde
@@ -134,6 +135,7 @@ def ERMh(errorEmpir):
 5. Simplifique la clase de hipótesis finita a rectángulos con lados paralelos a los lados de $X$, centrados en $X$. ¿Cuál es el tamaño de $H$? Forma un conjunto de entrenamiento con $m$ elementos, para $m=e^0,e^{1/2},e^1,...,m_H$ donde $m_H$ es la complejidad de $S$ para un parámetro de confianza y un error de 0.01. Grafica los puntos de cada conjunto de entrenamiento. Grafica los errores de generalización $L_{(D,f)}$ y empírico $L_S$ para cada hipótesis en $H$.  Obtén algún rectángulo $h_S$ que minimice $L_S$  y grafícalo en $X$.
 
 El tamaño de $H$ es $\frac{1}{0.01}=100$
+Conjuntos de entrenamiento:
 
 <div class="img_row">
 	<img class="col one" src="/img/entrenamiento1.jpg">
@@ -164,4 +166,10 @@ El tamaño de $H$ es $\frac{1}{0.01}=100$
 	<img class="col one" src="/img/entrenamiento14.jpg">
 	<img class="col one" src="/img/entrenamiento15.jpg">
 </div>
-### Wanda Coleman
+
+Graficas de errores:
+
+<div class="img_row">
+	<img class="col one" src="/img/error1.jpg">
+	<img class="col one" src="/img/error2.jpg">
+</div>
