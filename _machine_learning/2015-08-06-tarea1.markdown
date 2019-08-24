@@ -155,13 +155,13 @@ El tamaño de $H$ es $\frac{1}{0.01}=100$
 
 <div class="img_row">
 	<img class="col one" src="/img/entrenamiento10.jpg">
-	<img class="col one" src="/img/entrenamient11.jpg">
+	<img class="col one" src="/img/entrenamiento11.jpg">
 	<img class="col one" src="/img/entrenamiento12.jpg">
 </div>
 
 <div class="img_row">
 	<img class="col one" src="/img/entrenamiento13.jpg">
-	<img class="col one" src="/img/entrenamient14.jpg">
+	<img class="col one" src="/img/entrenamiento14.jpg">
 	<img class="col one" src="/img/entrenamiento15.jpg">
 </div>
 ### Wanda Coleman
