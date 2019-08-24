@@ -133,4 +133,8 @@ def ERMh(errorEmpir):
     return(ermh)
     
 {% endhighlight %}
+
+5. Simplifique la clase de hipótesis finita a rectángulos con lados paralelos a los lados de $X$, centrados en $X$. ¿Cuál es el tamaño de $H$? Forma un conjunto de entrenamiento con $m$ elementos, para $m=e^0,e^{1/2},e^1,...,m_H$ donde $m_H$ es la complejidad de $S$ para un parámetro de confianza y un error de 0.01. Grafica los puntos de cada conjunto de entrenamiento. Grafica los errores de generalización $L_{(D,f)}$ y empírico $L_S$ para cada hipótesis en $H$.  Obtén algún rectángulo $h_S$ que minimice $L_S$  y grafícalo en $X$.
+
+El tamaño de $H$ es $\frac{1}{0.01}=100$
 ### Wanda Coleman
