@@ -15,7 +15,7 @@ $m$: alto de $h$ (multiplo de 0.01)
 
 $n$: ancho de $h$ (multiplo de 0.01)
 
-2.¿Cuál es el tamaño del espacio de hipótesis?
+2. ¿Cuál es el tamaño del espacio de hipótesis?
 
 $t=200$
 
@@ -24,4 +24,13 @@ $m=\frac{2-t}{0.01}$
 $n=\frac{2-t}{0.01}$
 
 El tamaño del espacio de hipótesis es $mn=\frac{(2-t)^2}{0.0001}$ para $t=0.01,0.01,...,2$ $\Rightarrow \sum_{i=1}^{200}{(200-i)^2}$ 
+
+3. Calcula la probabilidad de extraer un ejemplo en cada una de las clases.
+
+La probabilidad de extraer $h_0(t_0,m_0,n_0)$ es $\frac{m_0n_0}{4}$
+
+4. En python, define un conjunto de métodos que realicen las siguientes tareas: 
+
+a. Formen conjuntos de entrenamiento $S$ con $m$ elementos
+
 ### Wanda Coleman
