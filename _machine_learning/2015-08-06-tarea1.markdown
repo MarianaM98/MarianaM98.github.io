@@ -182,31 +182,31 @@ Rectángulo $h_S$ que minimice $L_S$
 6. Para cada valor de $m$, forma 1000 conjuntos de entrenamiento, selecciona $h_S$ en cada caso y haz un histograma del error $L_{(D,f)}$
 
 <div class="img_row">
-	<img class="col one" src="/img/his1.jpg">
-	<img class="col one" src="/img/his2.jpg">
-	<img class="col one" src="/img/his3.jpg">
+	<img class="col one" src="/img/his1.png">
+	<img class="col one" src="/img/his2.png">
+	<img class="col one" src="/img/his3.png">
 </div>
 
 <div class="img_row">
-	<img class="col one" src="/img/his4.jpg">
-	<img class="col one" src="/img/his5.jpg">
-	<img class="col one" src="/img/his6.jpg">
+	<img class="col one" src="/img/his4.png">
+	<img class="col one" src="/img/his5.png">
+	<img class="col one" src="/img/his6.png">
 </div>
 
 <div class="img_row">
-	<img class="col one" src="/img/his7.jpg">
-	<img class="col one" src="/img/his8.jpg">
-	<img class="col one" src="/img/his9.jpg">
+	<img class="col one" src="/img/his7.png">
+	<img class="col one" src="/img/his8.png">
+	<img class="col one" src="/img/his9.png">
 </div>
 
 <div class="img_row">
-	<img class="col one" src="/img/his10.jpg">
-	<img class="col one" src="/img/his11.jpg">
-	<img class="col one" src="/img/his12.jpg">
+	<img class="col one" src="/img/his10.png">
+	<img class="col one" src="/img/his11.png">
+	<img class="col one" src="/img/his12.png">
 </div>
 
 <div class="img_row">
-	<img class="col one" src="/img/his13.jpg">
-	<img class="col one" src="/img/his14.jpg">
+	<img class="col one" src="/img/his13.png">
+	<img class="col one" src="/img/his14.png">
 
 </div>
