@@ -14,4 +14,14 @@ $t$: la esquina inferior izquierda de $h$ se encuentra en $(t,t)$
 $m$: alto de $h$ (multiplo de 0.01)
 
 $n$: ancho de $h$ (multiplo de 0.01)
+
+2.¿Cuál es el tamaño del espacio de hipótesis?
+
+$t=200$
+
+$m=\frac{2-t}{0.01}$
+
+$n=\frac{2-t}{0.01}$
+
+El tamaño del espacio de hipótesis es $mn=\frac{(2-t)^2}{0.0001}$ para $t=0.01,0.01,...,2$ $\Rightarrow \sum_{i=1}^{200}{(200-i)^2}$ 
 ### Wanda Coleman
