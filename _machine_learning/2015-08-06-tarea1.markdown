@@ -171,10 +171,42 @@ Graficas de errores:
 
 <div class="img_row">
 	<img class="col one" src="/img/error1.jpg">
-	<img class="col two" src="/img/error2.jpg">
+	<img class="col one" src="/img/error2.jpg">
 </div>
 
 Rectángulo $h_S$ que minimice $L_S$
 <div class="img_row">
-	<img class="col three" src="/img/min.jpg">
+	<img class="col one" src="/img/min.jpg">
+</div>
+
+6. Para cada valor de $m$, forma 1000 conjuntos de entrenamiento, selecciona $h_S$ en cada caso y haz un histograma del error $L_{(D,f)}$
+
+<div class="img_row">
+	<img class="col one" src="/img/his1.jpg">
+	<img class="col one" src="/img/his2.jpg">
+	<img class="col one" src="/img/his3.jpg">
+</div>
+
+<div class="img_row">
+	<img class="col one" src="/img/his4.jpg">
+	<img class="col one" src="/img/his5.jpg">
+	<img class="col one" src="/img/his6.jpg">
+</div>
+
+<div class="img_row">
+	<img class="col one" src="/img/his7.jpg">
+	<img class="col one" src="/img/his8.jpg">
+	<img class="col one" src="/img/his9.jpg">
+</div>
+
+<div class="img_row">
+	<img class="col one" src="/img/his10.jpg">
+	<img class="col one" src="/img/his11.jpg">
+	<img class="col one" src="/img/his12.jpg">
+</div>
+
+<div class="img_row">
+	<img class="col one" src="/img/his13.jpg">
+	<img class="col one" src="/img/his14.jpg">
+
 </div>
