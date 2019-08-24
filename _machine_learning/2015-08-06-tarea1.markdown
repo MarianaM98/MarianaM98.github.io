@@ -53,5 +53,84 @@ def entrenamiento(k):
 
 {% endhighlight %}
 
+b. Implementen una hipótesis $h:X\to \{0,1\}$ para cada $h\in X$
+{% highlight python %}
 
+def hipotesis(t,m,n,p):
+    if p[0]<(n+t) and p[0]>t:
+        if p[1]<(m+t) and p[1]>(t):
+                p[2]=1
+        else:
+                p[2]=0
+    else: 
+        p[2]=0
+    return p[2]
+    
+{% endhighlight %}
+
+c. Calculen error empíricos y de generalización
+{% highlight python %}
+
+def errorEmpirico(k,t,m,n):
+    S=entrenamiento(k)
+    x1=np.zeros(k)
+    y1=np.zeros(k)
+    z1=np.zeros(k)
+    for c in range(0,k):
+        x1[c]=S[3*c]
+        y1[c]=S[3*c+1]
+        z1[c]=S[3*c+2]
+    contador=0
+    p=[0,0,0]
+    for i in range(0,k):
+        p[0]=x1[i]
+        p[1]=y1[i]
+        w=hipotesis(t,m,n,p)
+        if z1[i]!=w:
+            contador=contador+1 
+    errorE=contador/k
+    return errorE
+
+def errorGeneralizacion(t,m,n):
+    area=m*n
+    n0=0
+    m0=0
+    if t<1-1/sqrt(2):
+        if n+t>1-1/sqrt(2) and n+t<1+1/sqrt(2):
+            n0=n+t-(1-1/sqrt(2))
+        elif n+t>1-1/sqrt(2) and n+t>1+1/sqrt(2):
+            n0=2/sqrt(2)
+    elif t>1-1/sqrt(2):
+        if n+t<1+1/sqrt(2):
+            n0=n
+        elif n+t>1+1/sqrt(2):
+            n0=1+1/sqrt(2)-t
+    if t<1-1/sqrt(2):
+        if m+t>1-1/sqrt(2) and m+t<1+1/sqrt(2):
+            m0=n+t-(1-1/sqrt(2))
+        elif m+t>1-1/sqrt(2) and m+t>1+1/sqrt(2):
+            m0=2/sqrt(2)
+    elif t>1-1/sqrt(2):
+        if m+t<1+1/sqrt(2):
+            m0=m
+        elif m+t>1+1/sqrt(2):
+            m0=1+1/sqrt(2)-t
+    if t>1-1/sqrt(2) and t<1+1/sqrt(2):
+        m0=2/sqrt(2)
+        n0=2/sqrt(2)
+    area2=m0*n0
+    errorG=abs((area-area2))/4
+    return errorG
+
+{% endhighlight %}
+
+c. Seleccione el rectángulo $ERM_H$
+{% highlight python %}
+
+def ERMh(errorEmpir):
+    errorEmpir=errorEmpir.tolist()
+    ermh=errorEmpir.index(min(errorEmpir))
+    return(ermh)
+    
+{% endhighlight %}
 ### Wanda Coleman
