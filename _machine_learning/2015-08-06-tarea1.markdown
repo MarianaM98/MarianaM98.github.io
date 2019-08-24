@@ -171,11 +171,10 @@ Graficas de errores:
 
 <div class="img_row">
 	<img class="col one" src="/img/error1.jpg">
-	<img class="col one" src="/img/error2.jpg">
-	<img class="col one" src="/img/error2.jpg">
+	<img class="col two" src="/img/error2.jpg">
 </div>
 
 Rectángulo $h_S$ que minimice $L_S$
 <div class="img_row">
-	<img class="col one" src="/img/min.jpg">
+	<img class="col three" src="/img/min.jpg">
 </div>
