@@ -65,10 +65,35 @@ Considere la clase de funciones $H_c(x)=1 x\geq c$. note que $H$ es infinito y 	
 # Pregunta 9
 Let $H$ be the class of signed intervals, that is $H=(h_{a,b,s}: a\leq b,s\in[-1,1]) $ donde 
 
-$h_{a,b,s}=\begin{cases}
-s,& x\in [a,b]\\
--s,& x \notin [a,b]
-\end{cases} $
+$h_{a,b,s}$=
+\begin{cases}
+s,& $x\in [a,b]$\\
+-s,& $x \notin [a,b]$
+\end{cases} 
+
+Calculate VCdim($H$)
+
+Sea $C=\{1,2,3\}$ entonces
+
+$h_{1,3,1}(1,2,3)=(1,1,1 )$
+
+$h_{2,3,1}(1,2,3)=(-1,1,1 )$
+
+$h_{2,2,-1}(1,2,3)=(1,-1,1 )$
+
+$h_{1,2,-1}(1,2,3)=(-1,-1,1 )$
+
+$h_{1,2,1}(1,2,3)=(1,1,-1)$
+
+$h_{2,2,1}(1,2,3)=(-1,1,-1 )$
+
+$h_{1,1,1}(1,2,3)=(1,-1,-1 )$
+
+$h_{-1,0,1}(1,2,3)=(-1,-1,-1 )$
+
+Entonces sabemos que VCdim($H$)$\geq 3$.
+
+Suponga que $C=(x_1,x_2,x_3,x_4)$ entonces note que $(1,-1,1,-1)$ no es posible obtenerse si $x_4>x_3$ entonces VCdim(H)=3
 
 
 Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
