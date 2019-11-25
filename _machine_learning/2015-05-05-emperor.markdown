@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Emperor 
+title: Tarea 3: Teorema NFL y dimension VC 
 date: 2015-07-06 07:59:00
 ---
 
