@@ -55,6 +55,13 @@ Ahora considere $C\ni |C|=2d+1$
 # Pregunta 7
 1. Find an example of a class $H$ of functions over the real interval $X=[0,1]$ such that $H$ is infinite while $VC\text{dim}(H)=1$
 
+Considere la clase de funciones $H_c(x)=1 x\geq c$. note que $H$ es infinito y 	$VC\text{dim}(H)=1$
+2. $H(x)=
+\begin{cases}
+1,& x\leq 1\\
+1,&x\leq 0
+\end{cases} $
+
 
 Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
 
