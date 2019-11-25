@@ -5,7 +5,7 @@ date: 2015-07-06 07:59:00
 ---
 
 <div class="img_row">
-	<img class="col three" src="/img/21.jpg">
+	<img class="col three" src="/img/211.jpg">
 </div>
 <div class="img_row">
 	<img class="col three" src="/img/22.jpg">
