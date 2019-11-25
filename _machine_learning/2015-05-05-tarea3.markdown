@@ -5,39 +5,12 @@ date: 2015-07-06 07:59:00
 mathjax: true
 ---
 #Cap 5\\
-1. Prove that the Equation (5.2) suffices for showing that$\mathbb{P}[L_D(A(S))\geq 1/8]\geq 1/7$ Hint: Let $\theta $ be a random variable that receives values in $[0,1]$ and whose expectation satisfies $\mathbb{E}[\theta]\geq 1/4$. Use Lemma B.1 to show that $\mathbb{P}[\theta \geq 1/8]\geq 1/7$.\\\
+1. Prove that the Equation (5.2) suffices for showing that$\mathbb{P}[L_D(A(S))\geq 1/8]\geq 1/7$ Hint: Let $\theta $ be a random variable that receives values in $[0,1]$ and whose expectation satisfies $\mathbb{E}[\theta]\geq 1/4$. Use Lemma B.1 to show that $\mathbb{P}[\theta \geq 1/8]\geq 1/7$. \\
 	Demostración: Sea $\theta$ ariable aleatoria en $[0,1]$ tal que $\mathbb{E}[\theta]\geq 1/4 \Rightarrow$ por lema B.1 
- 	$\mathbb{E}[\theta]\geq 1/4 \Rightarrow \mathbb{P}[\theta \geq 1-a]\geq \frac{1/4-(1-a)}{a}$ para $a\in (0,1)$. 	Entonces definimos $a=7/8 \Rightarrow$
-	$\mathbb{E}[\theta]\geq 1/4\Rightarrow \mathbb{P}[\theta \geq 1-7/8]\geq \frac{1/4-(1-7/8)}{7/8}$
-		$\Rightarrow \mathbb{P}[\theta \geq 1/8]\geq \frac{1}{7}$. Sea $\theta=L_D(A(S)) \qed$
-<div class="img_row">
-	<img class="col three" src="/img/211.jpg">
-</div>
-<div class="img_row">
-	<img class="col three" src="/img/222.jpg">
-</div>
-<div class="img_row">
-	<img class="col three" src="/img/23.jpg">
-</div>
-<div class="img_row">
-	<img class="col three" src="/img/24.jpg">
-</div>
-<div class="img_row">
-	<img class="col three" src="/img/25.jpg">
-</div>
-<div class="img_row">
-	<img class="col three" src="/img/26.jpg">
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/9.jpg">
-</div>
-<div class="col three caption">
-	A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
-</div>
-<div class="img_row">
-	<img class="col two" src="/img/8.jpg">
-	<img class="col one" src="/img/10.jpg">
-</div>
+ 	$\mathbb{E}[\theta]\geq 1/4 \Rightarrow \mathbb{P}[\theta \geq 1-a]\geq \frac{1/4-(1-a)}{a}$ para $a\in (0,1)$. 	Entonces definimos $a=7/8 \Rightarrow$ \\
+	$\mathbb{E}[\theta]\geq 1/4\Rightarrow \mathbb{P}[\theta \geq 1-7/8]\geq \frac{1/4-(1-7/8)}{7/8}$ \\
+		$\Rightarrow \mathbb{P}[\theta \geq 1/8]\geq \frac{1}{7}$. Sea $\theta=L_D(A(S))\qed$
+
 
 Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
 
