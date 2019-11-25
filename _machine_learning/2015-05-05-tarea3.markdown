@@ -37,7 +37,7 @@ Si se dispone de una clase de hipótesis grande el mejor algoritmo es BPxBMI per
 
 # Cap 6
 # Pregunta 5
-VC-dimesion of axis aligned rectangles in $\mathbb{R}^d:$ Let $H^d_{rec}$ be the class of axis aligned rectangles in$\mathbb{R}^d$. We have already seen that VCdim($H^2_{rec}$)=4. Prove that in general, VCdim($H^d_{rec}$)=2d
+VC-dimesion of axis aligned rectangles in $\mathbb{R}^d:$ Let $H^d_{rec}$ be the class of axis aligned rectangles in$\mathbb{R}^d$. We have already seen that VCdim($H^2$rec)=4. Prove that in general, VCdim($H^d$rec)=2d
 
 Demostración: Sea $H^d_{rec}$ la clase de rectángulos alineados en $\mathbb{R}^d$. Formalmente
 
