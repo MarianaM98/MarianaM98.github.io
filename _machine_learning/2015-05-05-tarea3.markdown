@@ -37,13 +37,15 @@ Si se dispone de una clase de hipótesis grande el mejor algoritmo es BPxBMI per
 
 # Cap 6
 # Pregunta 5
-VC-dimesion of axis aligned rectangles in $\mathbb{R}^d:$ Let $H^d_{rec}$ be the class of axis aligned rectangles in$\mathbb{R}^d$. We have already seen that VCdim$(H^2_{rec})=4$. Prove that in general, VCdim$(H^d_{rec})=2d$ 
+VC-dimesion of axis aligned rectangles in $\mathbb{R}^d:$ Let $H^d_{rec}$ be the class of axis aligned rectangles in$\mathbb{R}^d$. We have already seen that VCdim($H^2_{rec})=4$. Prove that in general, VCdim($H^d_{rec})=2d$ 
 
 Demostración: Sea $H^d_{rec}$ la clase de rectángulos alineados en $\mathbb{R}^d$. Formalmente
 
 $H^d_{rec}=\{h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}:a_1\leq a_2,...,d_1\leq d_2\}\ni$
 
-$h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}(x_1,x_2,...x_d)=\begin{cases}1,& a_1\leq x_1\leq a_2,...,d_1\leq x_d\leq d_2\\0,&\text{otherwise}\end{cases} $
+$h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}(x_1,x_2,...x_d)=
+\begin{cases}1,& a_1\leq x_1\leq a_2,...,d_1\leq x_d\leq d_2\\
+0,&\text{otherwise}\end{cases} $
 
 Considere el conjunto $\{x_1,x_2,...,x_{2d}\}$ con $x_i=(m_1,m_2,...,m_d)$ definido de tal manera que $a_1,a_2$ “shatter” la primer componente de $x_1,x_2$ la de $x_3,x_4$ y así hasta $x_{2d-1},x_{2d}$ y de igual manera hasta la componente d con $d_1,d_2$. Note que $H^d_{rec}$ “shatters” $\{x_1,x_2,...,x_{2d}\}\Rightarrow (H^d_{rec})\geq2d$
 
