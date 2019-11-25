@@ -2,9 +2,10 @@
 layout: post
 title: The Emperor Tarea 3
 date: 2015-07-06 07:59:00
+mathjax: true
 ---
-#Cap 5
-1. Prove that the Equation (5.2) suffices for showing that$\mathbb{P}[L_D(A(S))\geq 1/8]\geq 1/7$ Hint: Let $\theta $ be a random variable that receives values in $[0,1]$ and whose expectation satisfies $\mathbb{E}[\theta]\geq 1/4$. Use Lemma B.1 to show that $\mathbb{P}[\theta \geq 1/8]\geq 1/7$.
+#Cap 5\\
+1. Prove that the Equation (5.2) suffices for showing that$\mathbb{P}[L_D(A(S))\geq 1/8]\geq 1/7$ Hint: Let $\theta $ be a random variable that receives values in $[0,1]$ and whose expectation satisfies $\mathbb{E}[\theta]\geq 1/4$. Use Lemma B.1 to show that $\mathbb{P}[\theta \geq 1/8]\geq 1/7$.\\
 	Demostración: Sea $\theta$ ariable aleatoria en $[0,1]$ tal que $\mathbb{E}[\theta]\geq 1/4 \Rightarrow$ por lema B.1 
  	$\mathbb{E}[\theta]\geq 1/4 \Rightarrow \mathbb{P}[\theta \geq 1-a]\geq \frac{1/4-(1-a)}{a}$ para $a\in (0,1)$. 	Entonces definimos $a=7/8 \Rightarrow$
 	$\mathbb{E}[\theta]\geq 1/4\Rightarrow \mathbb{P}[\theta \geq 1-7/8]\geq \frac{1/4-(1-7/8)}{7/8}$
