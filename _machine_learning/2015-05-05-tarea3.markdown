@@ -41,13 +41,13 @@ VC-dimesion of axis aligned rectangles in $\mathbb{R}^d:$ Let $H^d_{rec}$ be the
 
 Demostración: Sea $H^d_{rec}$ la clase de rectángulos alineados en $\mathbb{R}^d$. Formalmente
 
-$H^d_{rec}=\{h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}:a_1\leq a_2,...,d_1\leq d_2\}\ni$
+$H^d_{rec}=(h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}:a_1\leq a_2,...,d_1\leq d_2)\ni$
 
-$h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}(x_1,x_2,...x_d)=
+$h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}(x_1,x_2,...x_d)$=
 \begin{cases}
-1, & a_1\leq x_1\leq a_2,...,d_1\leq x_d\leq d_2\\
-0, &\text{otherwise}
-\end{cases}$
+1, & $a_1\leq x_1\leq a_2,...,d_1\leq x_d\leq d_2$\\
+0, & otherwise
+\end{cases}
 
 Considere el conjunto $(x_1,x_2,...,x_{2d})$ con $x_i=(m_1,m_2,...,m_d)$ definido de tal manera que $a_1,a_2$ “shatter” la primer componente de $x_1,x_2$ la de $x_3,x_4$ y así hasta $x_{2d-1},x_{2d}$ y de igual manera hasta la componente d con $d_1,d_2$. Note que $H^d_{rec}$ “shatters” $\{x_1,x_2,...,x_{2d}\}\Rightarrow (H^d_{rec})\geq2d$
 
@@ -56,10 +56,18 @@ Ahora considere $C\ni |C|=2d+1$
 1. Find an example of a class $H$ of functions over the real interval $X=[0,1]$ such that $H$ is infinite while $VC\text{dim}(H)=1$
 
 Considere la clase de funciones $H_c(x)=1 x\geq c$. note que $H$ es infinito y 	$VC\text{dim}(H)=1$
-2. $H(x)=
+2. $H(x)$=
 \begin{cases}
-1,& x\leq 1\\
-1,&x\leq 0
+1,& $x\leq 1$\\
+1,& $x\leq 0$
+\end{cases} 
+
+# Pregunta 9
+Let $H$ be the class of signed intervals, that is $H=(h_{a,b,s}: a\leq b,s\in[-1,1]) $ donde 
+
+$h_{a,b,s}=\begin{cases}
+s,& x\in [a,b]\\
+-s,& x \notin [a,b]
 \end{cases} $
 
 
