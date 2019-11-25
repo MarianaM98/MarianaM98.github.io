@@ -4,7 +4,8 @@ title: The Emperor Tarea 3
 date: 2015-07-06 07:59:00
 mathjax: true
 ---
-Cap 5
+# Cap 5
+# Pregunta 1
 1. Prove that the Equation (5.2) suffices for showing that$\mathbb{P}[L_D(A(S))\geq 1/8]\geq 1/7$ Hint: Let $\theta $ be a random variable that receives values in $[0,1]$ and whose expectation satisfies $\mathbb{E}[\theta]\geq 1/4$. Use Lemma B.1 to show that $\mathbb{P}[\theta \geq 1/8]\geq 1/7$. 
 
 	Demostración: Sea $\theta$ ariable aleatoria en $[0,1]$ tal que $\mathbb{E}[\theta]\geq 1/4 \Rightarrow$ por lema B.1 
@@ -13,8 +14,8 @@ Cap 5
 	$\mathbb{E}[\theta]\geq 1/4\Rightarrow \mathbb{P}[\theta \geq 1-7/8]\geq \frac{1/4-(1-7/8)}{7/8}$ \\
 		$\Rightarrow \mathbb{P}[\theta \geq 1/8]\geq \frac{1}{7}$. Sea $\theta=L_D(A(S))\qed$
 
-
-2.Assume you are asked to design a learning algorithm to predict whether patients are going to suffer a heart attack. Relevant patient features the algorithm may have access to include blood pressure (BP), body-mass index (BMI), age (A), level of physical activity (P), and income (I). 
+# Pregunta 2
+Assume you are asked to design a learning algorithm to predict whether patients are going to suffer a heart attack. Relevant patient features the algorithm may have access to include blood pressure (BP), body-mass index (BMI), age (A), level of physical activity (P), and income (I). 
 
 You have to choose between two algorithms; the first picks an axis aligned rectangle in the two dimensional space spanned by the features BP and BMI and the other picks an axis aligned rectangle in the five dimensional space spanned by all the preceding features.
 
@@ -34,8 +35,19 @@ Cons: $\epsilon_{est}$ puede ser grande pues puede llevar a “overfitting”
 
 Si se dispone de una clase de hipótesis grande el mejor algoritmo es BPxBMI pero si se disponen de pocos datos 			de entrenamientos es mejor el espacio cinco dimensional pues las hipótesis de esta clase son más complejas. 
 
-	
+# Cap 6
+# Pregunta 5
+VC-dimesion of axis aligned rectangles in $\mathbb{R}^d:$ Let $H^d_{rec}$ be the class of axis aligned rectangles in$\mathbb{R}^d$. We have already seen that VCdim$(H^2_{rec})=4$. Prove that in general, VCdim$(H^d_{rec})=2d$ 
 
+Demostración: Sea $H^d_{rec}$ la clase de rectángulos alineados en $\mathbb{R}^d$. Formalmente
+
+$H^d_{rec}=\{h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}:a_1\leq a_2,...,d_1\leq d_2\}\ni$
+
+$h_{(a_1,a_2,b_1,b_2,...,d_1,d_2)}(x_1,x_2,...x_d)=\begin{cases}1,& a_1\leq x_1\leq a_2,...,d_1\leq x_d\leq d_2\\0,&\text{otherwise}\end{cases} $
+
+Considere el conjunto $\{x_1,x_2,...,x_{2d}\}$ con $x_i=(m_1,m_2,...,m_d)$ definido de tal manera que $a_1,a_2$ “shatter” la primer componente de $x_1,x_2$ la de $x_3,x_4$ y así hasta $x_{2d-1},x_{2d}$ y de igual manera hasta la componente d con $d_1,d_2$. Note que $H^d_{rec}$ “shatters” $\{x_1,x_2,...,x_{2d}\}\Rightarrow (H^d_{rec})\geq2d$
+
+Ahora considere $C\ni |C|=2d+1$
 
 Slow-carb four dollar toast Helvetica pop-up. Kale chips next level literally trust fund Pitchfork. Jean shorts Pinterest beard, farm-to-table irony craft beer swag tofu 8-bit Banksy. Quinoa forage fanny pack, pug hashtag Echo Park heirloom Schlitz tote bag artisan Neutra mumblecore 90's shabby chic raw denim.
 
