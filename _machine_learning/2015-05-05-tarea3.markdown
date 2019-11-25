@@ -16,14 +16,13 @@ Cap 5
 
 2.Assume you are asked to design a learning algorithm to predict whether patients are going to suffer a heart attack. Relevant patient features the algorithm may have access to include blood pressure (BP), body-mass index (BMI), age (A), level of physical activity (P), and income (I). 
 You have to choose between two algorithms; the first picks an axis aligned rectangle in the two dimensional space spanned by the features BP and BMI and the other picks an axis aligned rectangle in the five dimensional space spanned by all the preceding features.
-
 	1. Explain de pros and the cons of each choice.
-	(1)BPxBMI
-	Pros: Disminuye $\epsilon_{est}$
-	Cons: Debido a que las hipótesis de esta clase no son complejas es necesario tener muchos datos de entrenamiento. 		Aumenta $\epsilon_{app}$
-	(2) Five dimensional space
-	Pros: La hipótesis de esta clase son más complejas por lo que no se necesitan tantos datos de entrenamiento. Al asumir 			realizabilidad $\epsilon _{app}=0$
-	Cons: $\epsilon_{est}$ puede ser grande pues puede llevar a “overfitting”
+		(1)BPxBMI
+		Pros: Disminuye $\epsilon_{est}$
+		Cons: Debido a que las hipótesis de esta clase no son complejas es necesario tener muchos datos de 				entrenamiento. Aumenta $\epsilon_{app}$
+		(2) Five dimensional space
+		Pros: La hipótesis de esta clase son más complejas por lo que no se necesitan tantos datos de entrenamiento. 				Al asumir realizabilidad $\epsilon _{app}=0$
+		Cons: $\epsilon_{est}$ puede ser grande pues puede llevar a “overfitting”
 	2. Explain how the number of available labeled training samples will affect your choice. 
 		Si se dispone de una clase de hipótesis grande el mejor algoritmo es BPxBMI pero si se disponen de pocos datos 			de entrenamientos es mejor el espacio cinco dimensional pues las hipótesis de esta clase son más complejas. 
 
