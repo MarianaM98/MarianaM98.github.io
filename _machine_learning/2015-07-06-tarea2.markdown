@@ -29,7 +29,7 @@ def perceptron(S,y,m,d):
 	<img class="col one" src="/img/vector2.png">
 </div>
 
-3. Supón que la distribución sobre $\mathbb{R}^2$ es homogénea. ¿Cómo generas puntos aleatorios en $\mathbb{R}^2$? Para cada $m=1,..,1000$, forma 100 conjuntos de entrenamiento $S_m$ y grafica el promedio de $R=max_i(|x_i|)$. Es decir ¿cómo se escala $R$ con el tamaño de muestra?
+3. Supón que la distribución sobre $\mathbb{R}^2$ es homogénea. ¿Cómo generas puntos aleatorios en $\mathbb{R}^2$ ? Para cada $m=1,..,1000$ , forma 100 conjuntos de entrenamiento $S_m$ y grafica el promedio de $R=max_i$ ($|x_i|$). Es decir ¿cómo se escala $R$ con el tamaño de muestra?
 
 4. Para cada $m=1,...,1000$ ejecuta el algoritmo de percpetrón y grafica el número de pasos necesarios que le toma al algoritmo encontrar un vector $w*$ como función de $m$.
 
