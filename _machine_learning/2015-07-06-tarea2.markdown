@@ -4,7 +4,8 @@ title: PAC Generalizado Y Predictores Lineales
 date: 2019-08-20 07:59:00
 mathjax: true
 ---
-1. Implemente el algoritmo
+1
+Implemente el algoritmo
 
 {% highlight python %}
 def perceptron(S,y,m,d):
@@ -23,13 +24,15 @@ def perceptron(S,y,m,d):
             return(w)
 {% endhighlight %}
 
-2.Consideremos ahora la clasificación binaria en $\mathbb{R}^2$, bajo el supuesto de realizabilidad en la clase de predictores lineales. Supongamos que el predictor verdadero está dado por $w=(-1,1,1)$. Grafique la frontera entre ambas clases de acuerdo al clasificador. 
+# 2
+Consideremos ahora la clasificación binaria en $\mathbb{R}^2$, bajo el supuesto de realizabilidad en la clase de predictores lineales. Supongamos que el predictor verdadero está dado por $w=(-1,1,1)$. Grafique la frontera entre ambas clases de acuerdo al clasificador. 
 
 <div class="img_row">
 	<img class="col one" src="/img/vector2.png">
 </div>
 
-3. Supón que la distribución sobre $\mathbb{R}^2$ es homogénea. ¿Cómo generas puntos aleatorios en $\mathbb{R}^2$ ? Para cada $m=1,..,1000$ , forma 100 conjuntos de entrenamiento $S_m$ y grafica el promedio de $R=max_i$ ($|x_i|$). Es decir ¿cómo se escala $R$ con el tamaño de muestra?
+# 3
+Supón que la distribución sobre $\mathbb{R}^2$ es homogénea. ¿Cómo generas puntos aleatorios en $\mathbb{R}^2$ ? Para cada $m=1,..,1000$ , forma 100 conjuntos de entrenamiento $S_m$ y grafica el promedio de $R=max_i$ ($|x_i|$). Es decir ¿cómo se escala $R$ con el tamaño de muestra?
 
 Los puntos se generaron en los rangos [-100,100]x[-100,100]
 
@@ -72,7 +75,8 @@ plt.plot(r,m)
 	<img class="col one" src="/img/R.jpg">
 </div>
 
-4. Para cada $m=1,...,1000$ ejecuta el algoritmo de percpetrón y grafica el número de pasos necesarios que le toma al algoritmo encontrar un vector $w*$ como función de $m$.
+# 4
+Para cada $m=1,...,1000$ ejecuta el algoritmo de percpetrón y grafica el número de pasos necesarios que le toma al algoritmo encontrar un vector $w*$ como función de $m$.
 
 {% highlight python %}
 def iter(m):
@@ -89,7 +93,8 @@ def iter(m):
     return(n,it)
 {% endhighlight %}
 
-5. Para m=100 grafica en $\mathbb{R}^2$ la secuencia de actualizaciones $w^(t)$ de predictores hasta que clasifican correctamente a los datos de entrenamiento. 
+# 5
+Para m=100 grafica en $\mathbb{R}^2$ la secuencia de actualizaciones $w^(t)$ de predictores hasta que clasifican correctamente a los datos de entrenamiento. 
 <div class="img_row">
 	<img class="col one" src="/img/100.png">
 </div>
