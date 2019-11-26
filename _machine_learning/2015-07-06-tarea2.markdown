@@ -26,5 +26,5 @@ def perceptron(S,y,m,d):
 2.Consideremos ahora la clasificación binaria en $\mathbb{R}^2$, bajo el supuesto de realizabilidad en la clase de predictores lineales. Supongamos que el predictor verdadero está dado por $w=(-1,1,1)$. Grafique la frontera entre ambas clases de acuerdo al clasificador. 
 
 <div class="img_row">
-	<img class="col one" src="/img/vector.png">
+	<img class="col one" src="/img/vector2.png">
 </div>
