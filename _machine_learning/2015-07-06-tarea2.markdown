@@ -90,3 +90,6 @@ def iter(m):
 {% endhighlight %}
 
 5. Para m=100 grafica en $\mathbb{R}^2$ la secuencia de actualizaciones $w^(t)$ de predictores hasta que clasifican correctamente a los datos de entrenamiento. 
+<div class="img_row">
+	<img class="col one" src="/img/100.png">
+</div>
